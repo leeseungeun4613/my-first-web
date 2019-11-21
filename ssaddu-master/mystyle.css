@@ -1,0 +1,36 @@
+<style media "screen">
+.grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  border: 1px solid gray;
+}
+.navigation{
+   border-right: 1px solid gray;
+}
+a{
+  color:black;
+  text-decoration: underline;
+}
+@media (max-width:600px) {
+ .grid{
+  display: block;
+ }
+ .navigation{
+   border: none;
+ }
+ h1{
+   border-bottom: none;
+ }
+}
+h1{
+ color:dodgerblue;
+ text-align: center;
+}
+h2{
+  font-size: 4em;
+  text-align: center;
+}
+h3{
+  color:deepskyblue;
+}
+</style>
