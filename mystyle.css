@@ -1,0 +1,32 @@
+.grid{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  border: 1px solid gray;
+}
+.navigation{
+   border-right: 1px solid gray;
+}
+a{
+  color:black;
+}
+@media (max-width:600px) {
+ .grid{
+  display: block;
+ }
+ .navigation{
+   border: none;
+ }
+ h1{
+   border-bottom: none;
+ }
+}
+h2{
+  font-size: 4em;
+  text-align: center;
+}
+body{
+  background-color:  rgb(255,255,204);
+}
+h4{
+  font-size: 30px;
+}
